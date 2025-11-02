@@ -1,2 +1,2 @@
-# STUDY
+# StudySpace
 study material
