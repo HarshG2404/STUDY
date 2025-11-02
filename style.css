@@ -11,6 +11,66 @@ body {
   color: #333;
   line-height: 1.6;
 }
+.material-section {
+  padding: 40px 20px;
+  text-align: center;
+}
+
+#searchBar {
+  padding: 10px 15px;
+  width: 70%;
+  max-width: 400px;
+  border: 1.5px solid #ccc;
+  border-radius: 8px;
+  margin: 20px 0 30px;
+  font-size: 16px;
+}
+
+.subjects-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 25px;
+}
+
+.subject-card {
+  background: white;
+  border-radius: 12px;
+  box-shadow: 0 3px 8px rgba(0,0,0,0.1);
+  width: 280px;
+  padding: 20px;
+  text-align: left;
+  transition: transform 0.2s ease;
+}
+
+.subject-card:hover {
+  transform: translateY(-5px);
+}
+
+.subject-card h3 {
+  color: #2563eb;
+  margin-bottom: 10px;
+  text-align: center;
+}
+
+.subject-card ul {
+  list-style: none;
+  padding: 0;
+}
+
+.subject-card li {
+  margin: 8px 0;
+}
+
+.subject-card a {
+  text-decoration: none;
+  color: #1e40af;
+}
+
+.subject-card a:hover {
+  text-decoration: underline;
+}
+
 
 /* Header */
 header {
